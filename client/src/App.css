@@ -1,0 +1,139 @@
+.app{
+  color: white;
+  position:absolute;
+  text-align: center;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  left:0;right: 0;top: 0;bottom: 0;
+  background-color: #40414f;
+}
+.app-in{
+  position: absolute;
+  left:0;right: 0;top: 0;bottom: 0;
+  display: flex ;
+  margin: 5px;
+  margin-bottom: 25px;
+  justify-content: center;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  margin-bottom: 5px;
+  background-color:#40414f;
+  z-index: 1;
+  box-shadow: 1px 1px 5px rgba(0,0,0,.5);
+}
+.side-menu{
+  flex:1;
+  margin-right: 10px;
+}
+.side-menu-buttons{
+  height: 516.34px;
+  overflow-y: scroll;
+  margin-left: 5px;
+}
+
+.side-menu-button{
+  height: 30px;
+  background-color: #565869;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 1px 5px rgba(0,0,0,.5);
+}
+.side-menu-button:hover{
+  margin-left: 5px;
+  margin-right: 5px;
+  transition: 0.3s ease-in-out;
+}
+.chat-window{
+  flex:4;
+  background-color: #40414f;
+
+}
+
+.chat-box-body {
+  height: 460px;
+  overflow-y: scroll;
+  background-color:#40414f;
+  margin-bottom: 15px;
+}
+.chat-logs{
+  text-align: left;
+  color: #f6f6f6;
+  padding-left:250px;
+  padding-right:250px;
+  padding-bottom:20px;
+  padding-top:20px;
+}
+.even {
+  background-color:#40414f;
+}
+
+.odd {
+  background-color: #565869;
+}
+.input-div{
+  display: grid;
+  height: 40px;
+  padding-left:200px;
+  padding-right:200px;
+
+}
+.input-div input{  
+  background-color: #565869;
+  color: white;
+  border-radius: 10px;
+}
+/*------------------------------- SCROLL BAR CSS-------------------------- */
+/*------------------------------- SCROLL BAR CSS-------------------------- */
+/*------------------------------- SCROLL BAR CSS-------------------------- */
+/*------------------------------- SCROLL BAR CSS-------------------------- */
+
+:root {
+  --code-color: darkred;
+  --code-bg-color: #f6f6f6;
+  --code-font-size: 14px;
+  --code-line-height: 1.4;
+  --scroll-bar-color: #c5c5c5;
+  --scroll-bar-bg-color: #ccc;
+}
+
+pre {
+  color: var(--code-color);
+  font-size: var(--code-font-size);
+  line-height: var(--code-line-height);
+  background-color: var(--code-bg-color);
+}
+
+.code-block {
+  max-height: 100px;
+  overflow: auto;
+  padding: 8px 7px 5px 15px;
+  margin: 0px 0px 0px 0px;
+  border-radius: 7px;
+}
+
+* {
+  scrollbar-width: smaller;
+  scrollbar-color: var(--scroll-bar-color) var(--scroll-bar-bg-color);
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #40414f;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--scroll-bar-color);
+  border-radius: 20px;
+  border: 3px solid var(--scroll-bar-bg-color);
+}
